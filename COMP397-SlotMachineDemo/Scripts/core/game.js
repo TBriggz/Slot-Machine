@@ -32,7 +32,7 @@ var manifest = [
     { id: "NextButton", src: "../../Assets/images/NextButton.png" },
     { id: "StartButton", src: "../../Assets/images/StartButton.png" },
     { id: "background", src: "../../Assets/images/background.png" },
-    { id: "yay", src: "../../Assets/audio/yay.ogg" }
+    { id: "coin", src: "../../Assets/audio/PickedCoin.wav" }
 ];
 var data = {
     "images": [

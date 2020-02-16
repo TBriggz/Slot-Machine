@@ -23,7 +23,7 @@ var states;
         // PUBLIC METHODS
         Menu.prototype.start = function () {
             // hello label
-            this._helloLabel = new objects.Label("Game Start", "60px Consolas", "#000000", 320, 240, true);
+            this._helloLabel = new objects.Label("Briggz Casino", "60px Consolas", "#000000", 320, 240, true);
             this.addChild(this._helloLabel); // add label to the stage
             // start button
             this._startButton = new objects.Button("StartButton", 320, 340);
@@ -36,7 +36,7 @@ var states;
         // PRIVATE METHODS ++++++++++++++++++++++++++++++++++++++++++++++
         // Callback function / Event Handler for Start Button Click
         Menu.prototype._clickStartButton = function (event) {
-            createjs.Sound.play("yay"); // activate static class play 
+            createjs.Sound.play("coin"); // activate static class play 
             changeState(config.PLAY_STATE);
         };
         return Menu;

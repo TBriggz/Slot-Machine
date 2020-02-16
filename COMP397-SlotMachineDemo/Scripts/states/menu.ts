@@ -14,7 +14,7 @@
         public start(): void {
 
             // hello label
-            this._helloLabel = new objects.Label("Game Start", "60px Consolas", "#000000", 320, 240, true);
+            this._helloLabel = new objects.Label("Briggz Casino", "60px Consolas", "#000000", 320, 240, true);
             this.addChild(this._helloLabel); // add label to the stage
 
             // start button
@@ -32,7 +32,7 @@
         // PRIVATE METHODS ++++++++++++++++++++++++++++++++++++++++++++++
         // Callback function / Event Handler for Start Button Click
         private _clickStartButton(event: createjs.MouseEvent): void {
-            createjs.Sound.play("yay"); // activate static class play 
+            createjs.Sound.play("coin"); // activate static class play 
             changeState(config.PLAY_STATE);
         }
 
